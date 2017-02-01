@@ -1,0 +1,59 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrp {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.topLeft-rounded-corners {
+    border-top-left-radius: 50px;
+}
+.topRight-rounded-corners {
+    border-top-right-radius: 50px;
+}
+.bottomLeft-rounded-corners {
+    border-bottom-left-radius: 50px;
+}
+.bottomRight-rounded-corners {
+    border-bottom-right-radius: 50px;
+}
+
+#center-box {
+    background-color: blueviolet;
+    width: 100%;
+    height: 200px;
+      transition: all 1s;
+}
+
+#flexContainer {
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    flex: 0.8;
+    width: 80%;
+  
+}
+
+.box {
+    display: flex;
+    justify-content: space-between
+}
+
+.corner {
+    background-color: azure;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    /*    transition:width 1s;*/
+}
+
+.corner:hover {
+    box-shadow: 2px 2px 2px black;
+}
